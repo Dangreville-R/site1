@@ -1,0 +1,77 @@
+
+table caption{
+    font-weight: bold;
+}
+
+table td,table th {
+    border: 1px solid;
+    height: 60px;
+    width: 150px;
+}
+
+table th {
+
+    border: 1px solid;
+    background-color: #2C75FF;
+}
+
+
+.cours-fondamentaux{
+    background-color: rgb(189, 116, 6);
+}
+
+.cours-math{
+    background-color: green;
+}
+
+.cours-cultureGe{
+    background-color: cyan;
+}
+
+.cours-info{
+    background-color: magenta;
+}
+
+.cours-anglais{
+    background-color: yellow;
+}
+
+.cours-prog {
+    background-color: blueviolet;
+}
+
+.cours-coInv {
+    background-color: #99ffcc;
+}
+
+.cours-repas{
+    background-color: darkgray;
+}
+
+
+.cour p{
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.cour:hover p{
+    visibility: visible;
+}
+
+
+
+.horaire{
+    background-color: white;
+}
+.horaire:hover{
+    background-color: brown;
+}
+
+
+.flouter {
+    filter: blur(2px);
+}
+
+body {
+    background-color: #C8C8C8;
+}
